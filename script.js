@@ -1,1 +1,6 @@
-console.log("Hey, this works!");
+function checkUp(check) {
+console.log("Hey, this " + check);
+return "Hey, this " + check;
+}
+
+checkUp("works!");
